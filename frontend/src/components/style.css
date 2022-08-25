@@ -1,0 +1,54 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+.logo {
+    width: 120px;
+    height: 31px;
+    background: #333;
+    border-radius: 6px;
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+
+
+.toc {
+    font-size: 14px;
+    list-style: none;
+}
+
+.toc-anchor {
+	  color:#aaa;
+	  font-size:12px;
+}
+.toc-anchor a {
+	  color:#666;
+	  font-size:12px;
+	  display:block;
+	  overflow:hidden;
+	  text-overflow:ellipsis;
+	  white-space:nowrap;
+}
+
+.markdown-editor-textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    margin-right: 10px;
+	  font-size:14px;
+	  /* line-height:1.8 */
+	  line-height:1.5;
+}
+
+.markdown-editor-diver {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #ddd;
+}
+
+.markdown-editor-title {
+    font-size: 1.5em;
+    font-weight: 300;
+}
